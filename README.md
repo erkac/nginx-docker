@@ -4,7 +4,7 @@
 - [Deploying NGINX and NGINX Plus on Docker](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/)
 
 ## Config & Data
-- `./nginx` is mounted to `/etc/nginx` and it contains the full configuration as it comes from nginx
+- `./nginx` is mounted to `/etc/nginx` and it contains the full configuration as it comes from NGINX
 - `./data` is mount to `/data`
 
 ## Run
