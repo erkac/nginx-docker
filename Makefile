@@ -17,6 +17,9 @@ cleanup:
 reload:
 	@docker exec -it nginxplus nginx -s reload
 
+check:
+	@docker exec -it nginxplus nginx -t
+
 logs:
 	@docker logs -f nginxplus
 
