@@ -23,6 +23,8 @@ make logs
 make shell
 ```
 
+See `./Makefile` for more options.
+
 ## Docker
 ```bash
 # build
