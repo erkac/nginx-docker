@@ -11,3 +11,6 @@ cleanup:
 
 logs:
 	@docker logs -f nginxplus
+
+shell:
+	@docker exec -it nginxplus /bin/bash
